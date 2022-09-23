@@ -1,4 +1,4 @@
-# 2Ddigital-compositing
+# 2D-compositing
 ## 제목
 ### 
 
