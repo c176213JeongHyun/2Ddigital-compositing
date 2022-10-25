@@ -54,4 +54,4 @@
     - 전체적인 룩이 아니라 그저 예쁜 장면을 만드는 것에 집중되지 않도록 계획을 설계한다.
     - 감정이 흐르는 것에 따른 색의 변화의 주의하며 전반적으로 지배하는 색상, 톤을 결정하면 최종편집 후 컬러 그레이딩을 할때 감정의 극대화가 가능해진다.
     
-    ![color script](https://www.google.com/url?sa=i&url=https%3A%2F%2Fescapestudiosanimation.blogspot.com%2F2020%2F04%2Fwhy-animators-need-colour-scripts.html&psig=AOvVaw3vynG3NCpXxmX7HmXmWXzN&ust=1666792615966000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPCVucDE-_oCFQAAAAAdAAAAABAK)
+    [![color script](https://3.bp.blogspot.com/-S41svbNFyGc/Wgx9w70lE_I/AAAAAAAACwU/V9BrpmW9PB4Za77ZTtRHPVrt6jflB1KpQCLcBGAs/s1600/findingNemo.jpg)](https://github.com/c176213JeongHyun/2Ddigital-compositing)
