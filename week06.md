@@ -1,4 +1,4 @@
-##  Rotoscoping
+#  Rotoscoping
 rotopaint는 배우를 클린업하거나 배경에 불필요한 요소를 지울때 사용한다. (포토샵 도장의 기능)
 형태를 몇번 정도에 나눠서 작업하는 것이 좋다. 퍼스펙티즈 (카메라의 구도)가 변화했을때 편하게 대처하기 위해서..
 로토를 따려는 대상이 어떻게 움직이는지 알고 따야한다. (먼저 motion path 확인)
@@ -7,7 +7,7 @@ rotopaint는 배우를 클린업하거나 배경에 불필요한 요소를 지�
 
 
 
-# Rotoscoping Prep 
+## Rotoscoping Prep 
   **Motion Path**
   24프레임을 전부 다 따지 않게 인비트윈은 나중에 따도록 쉐입을 그리기 전에 움직임을 추적, 패스를 설정
   **Separate by Objects** 
