@@ -1,6 +1,6 @@
-## 10/21 수업필기
+# 10/21 수업필기
 
-# 로토스코핑 피드백
+## 로토스코핑 피드백
 로토 딸때 외곽 테두리를 더 중점적으로 따기...
 
 
@@ -13,13 +13,13 @@ png 시퀀스 이용할때 참고.
 외곽에서 x자로 만나는 부분이 내가 의도한 대로 잘 빠지는지 확인 할 것.
 움직임이 많은 피사체를 작업할때는 로토 외곽의 쉐잎을 깨주는 것이 좋다.
 
-# Lighting Wrap
+## Lighting Wrap
 외곽선을 잘 마무리하기 위해 한 픽셀정도 미뤄놓고 픽셀을 밀어주는 방식이 있다. 유튜브에서 Nuke Top Tip 검색해보기!
 
 
-# Chroma keying
-# Keyers
-# Dispill
+* Chroma keying
+* Keyers
+* Dispill
 
 크로마키: 키컬러를 빼서 알파를 추출하는 과정, RGB컬러를 활용하여 채널을 분리한다.
 피사체의 주변 외곽이 뚝뚝 끊겨보이지 않도록 하기 위해 촬영을 하면서 
@@ -38,12 +38,12 @@ FLIMMAKER IQ 유튜브 영상 구독하면 좋을 듯! 영상관련 개념 많�
 스크린에 점이 있는 이유는 트래킹을 할 때 카메라가 따라가며 쉽게 다시 위치를 찾아가기 위해서.
 광량이 충분하지 않아서 초록색이 인물의 피부에 묻으면 좋지않다.
 
-# Keyers
+## Keyers
 Utilty
 (B/G) Screen
 node keylight 사용
 
-#Soft key, hard key +key mix(node)
+## Soft key, hard key +key mix(node)
 외곽, 중심을 합치는 것과 비슷하다.
 
 hollywood camera work
