@@ -30,7 +30,7 @@
 * black clamp :픽셀의 수치들 조정. (0이 되지 않도록)
 * rgb에서 gb가 1이상이라면 그것에 집중하고, 1이상으로 clamps
   
-*  constant node가 있으면 빈 백그라운드의 역할 한다. 
+*  constant node가 있으면 빈 백그라운드의 역할 한다. 가장 처음에 포맷 맞출떄 사용
 *  원래 소스의 크기에 따라 화면 비율을 맞춰준다. 안쓰는 소스의 여분은 과감히 버리자.
 *  reformat: center, width 크기를 강제로 맞춤. (resize)
 *  transform: filter:cubic 
