@@ -34,7 +34,7 @@
 *  원래 소스의 크기에 따라 화면 비율을 맞춰준다. 안쓰는 소스의 여분은 과감히 버리자.
 *  reformat: center, width 크기를 강제로 맞춤. (resize)
 *  transform: filter:cubic 
-*  노드의 필터의 종류를 를 맞춰주는 것이 원본이 최대한 덜 손상되는 방법. 
+*  노드의 필터의 종류를 맞춰주는 것이 원본이 최대한 덜 손상되는 방법. 
 *  :node kon concatenation 
 *  ex) transform, reformat의 filter를 cubic으로 맞추면 두번 손상이 아닌 한번 손상으로 맞출 수 있다.
 *  *Filtering algorithm*
@@ -48,6 +48,7 @@
 * 포토샵에서 투명화해서 불러온 후 하얀 배경이 안보이도록 합칠때는 premult. 투명화를 해서 가져온 파일의 경우 이미 알파채널이 있기때문에 premult만 하면 된다.
 
 * BackdropNode로 정리한 후 AppendClip: 컷의 전환이 있을경우 이 노드로 묶어주면 컷 전환이 가능하다. 
+* 아웃풋은 write node로 하고 확장자 정한 후 코덱은 h.264. file type: mov, sRGB. frame range 확인 후 내보내기 global range로 해야 전체 프레임 인식.
 
 ## Node 정리
  * https://www.nukeisfun.com/post/you-are-doing-it-wrong-ultimate-nuke-script-organizing-guide
