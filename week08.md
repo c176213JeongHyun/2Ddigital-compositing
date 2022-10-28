@@ -16,7 +16,7 @@
 * shift s, prep 에서 새로운 노드를 띄울 때 자동으로 b인풋에 연결 되도록 설정 바꾸면 좀 더 편하다. (세로 연결)
 * *Localization* 외장하드에서 파일을 불러올때 완전히 파일과 자료를 복제해서 불러온다. 훨씬 속도가 빨라짐. limit to (GB) on해서 끄고 킬 수 있다. 
 
-## Grade
+## Grade & 합성
 * black point (가장 어두운 색) white point (가장 밝다고 생각되는 색) 를 색상 픽해서 ISO를 맞출 수 있다. 
 * lift gain gamma 순으로 사용. 
   * lift: 어두운 색 주변을 끌어올리는 역할. 다른 것과 함께 쓰기위해 어두운 정도를 맞춘다.
@@ -44,7 +44,11 @@
 * gain, gamma말고 lift를 가장 먼저 작업을 해야한다. 채널을 분리해서 작업. r,g,b, 번갈아가며 확인한다. 어둠의 정도 맞춰줄 것.
 * 채널에서 1.0이 된 부분은 노출이 심해서 날아간 것. 맞출 수 없으니 대강 작업한다.
 
+* backdropnode 좌우로 흔들면 분리되니 영역 바꾸고 싶을땐 그런식으로 하면 ok
+* 포토샵에서 투명화해서 불러온 후 하얀 배경이 안보이도록 합칠때는 premult. 투명화를 해서 가져온 파일의 경우 이미 알파채널이 있기때문에 premult만 하면 된다.
 
+## Node 정리
+  - https://www.nukeisfun.com/post/you-are-doing-it-wrong-ultimate-nuke-script-organizing-guide
 ## Color Correct
 
 
