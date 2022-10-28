@@ -48,7 +48,7 @@
 * 포토샵에서 투명화해서 불러온 후 하얀 배경이 안보이도록 합칠때는 premult. 투명화를 해서 가져온 파일의 경우 이미 알파채널이 있기때문에 premult만 하면 된다.
 
 ## Node 정리
-  - https://www.nukeisfun.com/post/you-are-doing-it-wrong-ultimate-nuke-script-organizing-guide
+  -  https://www.nukeisfun.com/post/you-are-doing-it-wrong-ultimate-nuke-script-organizing-guide
 ## Color Correct
 
 
