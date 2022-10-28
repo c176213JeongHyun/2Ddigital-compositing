@@ -47,13 +47,18 @@
 * backdropnode 좌우로 흔들면 분리되니 영역 바꾸고 싶을땐 그런식으로 하면 ok
 * 포토샵에서 투명화해서 불러온 후 하얀 배경이 안보이도록 합칠때는 premult. 투명화를 해서 가져온 파일의 경우 이미 알파채널이 있기때문에 premult만 하면 된다.
 
+* BackdropNode로 정리한 후 AppendClip: 컷의 전환이 있을경우 이 노드로 묶어주면 컷 전환이 가능하다. 
+
 ## Node 정리
-  -  https://www.nukeisfun.com/post/you-are-doing-it-wrong-ultimate-nuke-script-organizing-guide
+ * https://www.nukeisfun.com/post/you-are-doing-it-wrong-ultimate-nuke-script-organizing-guide
 ## Color Correct
 
-
+* master/ shadows/ midtones/ higlights
+* 각각의 range가 있지만 조작하면 나중에 되돌리기 힘들게 되니 saturation을 쓴다. (근데 노드가 이미 따로 있음)
 
 
 
 
 # Traking and Match-move
+* Match-moving elements
+* https://learn.foundry.com/nuke/content/tutorials/written_tutorials/tutorial2/matchmoving_elements.html
