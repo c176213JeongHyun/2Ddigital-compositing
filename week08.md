@@ -38,7 +38,7 @@
 *  :node kon concatenation 
 *  ex) transform, reformat의 filter를 cubic으로 맞추면 두번 손상이 아닌 한번 손상으로 맞출 수 있다.
 *  *Filtering algorithm*
-   -  https://learn.foundry.com/nuke/content/comp_environment/transforming_elements/filtering_algorithm_2d.html
+   - https://learn.foundry.com/nuke/content/comp_environment/transforming_elements/filtering_algorithm_2d.html
 * 크기 안맞을때의 방법: reformat, crop, tranxform. 주변에 black outside하면 필요하지 않은 부분 검게 보이도록 할 수 있다.
 
 * gain, gamma말고 lift를 가장 먼저 작업을 해야한다. 채널을 분리해서 작업. r,g,b, 번갈아가며 확인한다. 어둠의 정도 맞춰줄 것.
