@@ -21,7 +21,7 @@
 * 같은 소스가 너무 같은 움직임을 갖지 않도록... 같은 선상에서 비슷한 움직임이면 관객이 눈치채기 쉽다. 
 * 바깥공간과 아주 다른 이질적 공간이니까 바깥과 닿는 곳의 톤 맞추면 좋았을 것.
 * 문이 열렸을 때 빛이 쫙 들어오는 효과 노드 주면 좋았을 것.. God Ray
- *  https://learn.foundry.com/nuke/content/reference_guide/filter_nodes/godrays.html
+  *  https://learn.foundry.com/nuke/content/reference_guide/filter_nodes/godrays.html
  *  God Ray 쓸때 인물에게 빛이 넘어오도록 효과를 주면 좋다. 빛이 묻도록.
  *  **현실감을 위한 그림자 넣는 법**
    *   grade로 검정으로 바꾸고 복사 후 tranform을 하고 투명도 조절하면 된다.
