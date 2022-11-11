@@ -38,6 +38,5 @@
  * scan line render가 없다면 망에서 만드는 씬이나 다름없다. 
  * four point로 하기 어려운 경우 trans form geo로 연결후 이동, 회전해서 맞춰주면 2d이미지를 3d 노드와 연결 가능.
  * 가장 좋은 건 dslr로 줌 렌즈말고 일반 렌즈로 one point Tracking 부터 four point Tracking까지..피사체 교체해오기.
- * *자료링크*
+ * **자료링크**
    * https://learn.foundry.com/course/4685/view/practical-compositing-in-nuke-4-merging
- * 
