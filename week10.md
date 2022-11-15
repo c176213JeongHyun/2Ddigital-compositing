@@ -16,13 +16,13 @@
  * 카메라 각도가 많이 변하지 않을때는 One Point Tracking도 유용하게 사용가능하다..
  * frame hold를 써서 레퍼런스 이미지 설정한 후 로토를 따서 덮어씌울 만한 것을 만들고, 트래커를 달아주면 트래킹한 물체를 지울 수 있다.
  * frame hold를 풀면 이동하는 이미지가 되기때문에 다시 그 이미지에 트래킹을 해야함. 그래서 보다 간편하게 한 프레임의 이미지만 따와서 가리는 용도로 사용했다...
- * stabilize 카메라의 좌우상하 움직임을 막아주는 것으로 카메라 안정성을 주는 역할. 카메라가 위로 치솟으면 다시 아래로 끌어내린다.
+ * stabilize: 카메라의 좌우상하 움직임을 막아주는 것으로 카메라 안정성을 주는 역할. 카메라가 위로 치솟으면 다시 아래로 끌어내린다.
  * baked가 안된 노드를 초록색 선으로 연결하면 트래커가 변하는 것에 따라 다른 연결한 노드도 같이 변화한다. bake하면 연결이 끊기고 키가 박힌 노드가 만들어짐.
  * 트래커에서 위치정보를 control으로 잡고 드래그 앤 드롭하면 정보값 그대로 옮길 수 있다.
  * four point tracking을 하면 coner pin node 생성 가능. 직사각형의 끝과 끝 맞추기 가능하다.
  * Two point Tracker 점을 두 개 사용해서 트래킹. 
- * stabilzie 움직이는 물체를 가져다 붙이기 보다 안 흔들리도록 왜곡 시켜서 따로 딴 후 회전시키며 가져다 붙이는게 더 자연스럽다.
- * three point Tracking (삼각형)면을 만들어서 트래킹 가능해진다. 
+ * stabilzie 움직이는 물체를 가져다 붙이기보다 안 흔들리도록 왜곡 시켜서 따로 딴 후 회전시키며 가져다 붙이는게 더 자연스럽다.
+ * three point Tracking (삼각형)면을 만들어서 트래킹하는 것도 가능하다.
  * 조절자는 control누르고 조절하면 각 점으로 조절해서 크기변경 가능.
  * four point tracking을 하면 coner pin node 생성. 사방에 있는 네 개의 포인트를 조절해서 어떤 방향으로 들어갈지 묘사한다. 
  * 네개의 트랙을 생성해야 사각형에 맞추기, 다른 이미지로 대체 가능해진다. 네개의 점대로 위치를 바꿔준다.
@@ -32,11 +32,12 @@
  * locate (feature 표시 트래킹 할만한 것의 개수 조절가능. (십자표시의 개수 조절) feature 주황색인 경우 탈락한 것. 
  * Focal range 카메라 렌즈 몇 mm인지 알고있을때 왜곡을 위해 입력.35mm,50mm
  * solve error가 1.~이면 쓸만하게 조정된 것..
- * create 누르면 카메라가 생성되고, 트래커의 위치값 따라간다. 
+ <br/> * create 누르면 카메라가 생성되고, 트래커의 위치값 따라간다. 
  * 카메라 트래커 선택한 상태에서 바닥으로 지정할 십자들을 잡아주고 ground play set to selected로 하면 바닥으로 정한 영역을 아래로 카메라가 위로 뜬다.
- * point clould 는 3d상의 공간에서 어디에 frature가 있는지 띄워 위치를 보여준다.
+ * point clould 는 3d상의 공간에서 어디에 fㄷature가 있는지 띄워 위치를 보여준다.
  * scan line render가 없다면 망에서 만드는 씬이나 다름없다. 
  * four point로 하기 어려운 경우 trans form geo로 연결후 이동, 회전해서 맞춰주면 2d이미지를 3d 노드와 연결 가능.
- * 가장 좋은 건 dslr로 줌 렌즈말고 일반 렌즈로 one point Tracking 부터 four point Tracking까지..피사체 교체해오기.
+ * 가장 좋은 건 dslr로 줌 렌즈말고 일반 렌즈로 찍는 것
+ * 과제: one point Tracking 부터 four point Tracking까지..피사체 교체해오기.
  * **자료링크**
    * https://learn.foundry.com/course/4685/view/practical-compositing-in-nuke-4-merging
