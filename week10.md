@@ -42,3 +42,6 @@
    * 과제: one point Tracking 부터 four point Tracking까지..피사체 교체해오기.
  * **자료링크**
    * https://learn.foundry.com/course/4685/view/practical-compositing-in-nuke-4-merging
+ * **Free Effect**
+ * 알파 처리 되어있는 무료 효과 소스!
+   * https://vfx.productioncrate.com/search/#!/free
