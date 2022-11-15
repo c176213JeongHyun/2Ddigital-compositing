@@ -1,5 +1,5 @@
 # Tracking and Match-move
-## 2dtracker and 3d tracker
+## 2dtracker
  * 2d트래커는 데이터 쫓아가는 것, 3d트래커는 촬영을 추출해내는 것 카메라의 움직임을 추출해내는 것. (3차원 정보)
  * 안쪽에 있는 조절자, 바깥에 있는 조절자. 십자는 물체의 가운데를 잡아주면 같은 패턴의 이미지를 찾도록 하는 중심. 
  * 바깥의 있는 조절자는 카메라의 움직임에 따라 내가 정한 범위까지에서도 움직일 수 있다고 지정하는 기준. 위아래 보다 좌우를 넉넉하게 잡는 것이 도움된다. 
@@ -32,12 +32,13 @@
  * locate (feature 표시 트래킹 할만한 것의 개수 조절가능. (십자표시의 개수 조절) feature 주황색인 경우 탈락한 것. 
  * Focal range 카메라 렌즈 몇 mm인지 알고있을때 왜곡을 위해 입력.35mm,50mm
  * solve error가 1.~이면 쓸만하게 조정된 것..
- <br/> * create 누르면 카메라가 생성되고, 트래커의 위치값 따라간다. 
- * 카메라 트래커 선택한 상태에서 바닥으로 지정할 십자들을 잡아주고 ground play set to selected로 하면 바닥으로 정한 영역을 아래로 카메라가 위로 뜬다.
- * point clould 는 3d상의 공간에서 어디에 fㄷature가 있는지 띄워 위치를 보여준다.
- * scan line render가 없다면 망에서 만드는 씬이나 다름없다. 
- * four point로 하기 어려운 경우 trans form geo로 연결후 이동, 회전해서 맞춰주면 2d이미지를 3d 노드와 연결 가능.
- * 가장 좋은 건 dslr로 줌 렌즈말고 일반 렌즈로 찍는 것
- * 과제: one point Tracking 부터 four point Tracking까지..피사체 교체해오기.
+  ## 3D Tracker 
+   * create 누르면 카메라가 생성되고, 트래커의 위치값 따라간다. 
+   * 카메라 트래커 선택한 상태에서 바닥으로 지정할 십자들을 잡아주고 ground play set to selected로 하면 바닥으로 정한 영역을 아래로 카메라가 위로 뜬다.
+   * point clould 는 3d상의 공간에서 어디에 fㄷature가 있는지 띄워 위치를 보여준다.
+   * scan line render가 없다면 망에서 만드는 씬이나 다름없다. 
+   * four point로 하기 어려운 경우 trans form geo로 연결후 이동, 회전해서 맞춰주면 2d이미지를 3d 노드와 연결 가능.
+   * 가장 좋은 건 dslr로 줌 렌즈말고 일반 렌즈로 찍는 것
+   * 과제: one point Tracking 부터 four point Tracking까지..피사체 교체해오기.
  * **자료링크**
    * https://learn.foundry.com/course/4685/view/practical-compositing-in-nuke-4-merging
