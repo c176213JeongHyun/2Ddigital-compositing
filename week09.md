@@ -4,6 +4,8 @@
  * 이미 알파가 따져있고 그곳에 다른 초록색을 덮어 씌워져있는 소스는 활용하기에 별로 좋지 못하다. 다른 plate찾아보기. 방법은 로토스코핑 뿐...
  * **Node- time offset**
    * 프레임의 시작을 지정하여 설정 가능하다.
+   * 영상의 frame time을 바꿀 때 참고하기!
+    * https://learn.foundry.com/nuke/content/reference_guide/time_nodes/time_nodes.html
  * 좋은 소스 사이트
  * **Action VFX**
    * https://www.actionvfx.com/?gclid=EAIaIQobChMIi7XUy7ST-wIVhzMqCh2lFgPaEAAYASAAEgJdhfD_BwE
