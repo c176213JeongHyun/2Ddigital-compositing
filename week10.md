@@ -35,7 +35,7 @@
   ## 3D Tracker 
    * create 누르면 카메라가 생성되고, 트래커의 위치값 따라간다. 
    * 카메라 트래커 선택한 상태에서 바닥으로 지정할 십자들을 잡아주고 ground play set to selected로 하면 바닥으로 정한 영역을 아래로 카메라가 위로 뜬다.
-   * point clould 는 3d상의 공간에서 어디에 fㄷature가 있는지 띄워 위치를 보여준다.
+   * point clould 는 3d상의 공간에서 어디에 feature가 있는지 띄워 위치를 보여준다.
    * scan line render가 없다면 망에서 만드는 씬이나 다름없다. 
    * four point로 하기 어려운 경우 trans form geo로 연결후 이동, 회전해서 맞춰주면 2d이미지를 3d 노드와 연결 가능.
    * 가장 좋은 건 dslr로 줌 렌즈말고 일반 렌즈로 찍는 것
