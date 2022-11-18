@@ -51,3 +51,4 @@
 * 2D plate로 3D공간을 만들기에 효과적이다. 모션 블러도 넣어짐. (픽셀의 움직임 잡아서)
 * =2.5D 합성
 * **project 3D**: https://learn.foundry.com/nuke/content/reference_guide/3d_nodes/project3d.html
+* 과제: 3D field 이해하고 복도와 같은 2.5D공간 연습해보기. 기말과제 기획 생각해오기!
