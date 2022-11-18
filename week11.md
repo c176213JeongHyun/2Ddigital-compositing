@@ -34,7 +34,20 @@
   * 3D mesh를 불러올땐 Read Geo node 사용.
   * Read Geo: https://learn.foundry.com/nuke/11.1/content/reference_guide/3d_nodes/readgeo.html
   * scanline render를 사용해서 3D 노드를 보이도록 만들 수 있다.
-  * 카메라가 비추는 영역을 조절할때 <u>Focal range</u> 를 조절하면 초점의 거리 조절이 가능하다.
-  * 
+  * 카메라가 비추는 영역을 조절할때 Focal range를 조절하면 초점의 거리 조절이 가능하다.
+  * 3d 물체도 해상도를 맞춰주어야 물체가 비이상적으로 늘어나지 않는다.
+  * 화면 안으로 깊이감이 보이는 씬을 만들 때 포토샵에서 레이어 나눠서 만든 matte painting을 card에 이미지를 넣고 premult해서 공간감 만들 수 있다.
+  * card node에서 depth의 z축만 조절해도 크기와 거리를 모두 조절해준다. 
+  * 카메라의 tanslate를 키를 준 후 움직이면 안으로 드어가는 애니메이션 줄 수 있다.
+  * psd 파일로 가져온 후 shuffle을 넣고 input layer를 bg, rgb..등등 조절하면 레이어대로 나눠서 쓸 수 있다.
+  * 일일이 노드에 이름쓰기 귀찮으니까 node head에 [value] 를 넣으면 이름이 input1을 바꾸는 대로 바뀐다.
 
-
+## Project 3D
+* 이미지를 카메라 설정한대로 투사해서 보여준다.
+* 복도를 배경으로 둔다 치고 카드를 6개 만들어서 육면체 공간을 만든다. 
+* render cam는 scence으로 이은 후 sacnline render로.. project cam은 project 3D에 이어져있다.
+* 카메라가 투사하는 곳을 설정해서 줌인 줌아웃 카메라의 움직임을 만들 수 있다!
+* card의 x z y축을 조절해서 보여줄 영역을 만든다. rotate를 활용해서 벽면 만들기 가능. 스케일을 길게 하면 복도의 옆면처럼 길게 만들 수 있다.
+* 2D plate로 3D공간을 만들기에 효과적이다. 모션 블러도 넣어짐. (픽셀의 움직임 잡아서)
+* =2.5D 합성
+* **project 3D**: https://learn.foundry.com/nuke/content/reference_guide/3d_nodes/project3d.html
