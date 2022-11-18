@@ -29,7 +29,7 @@
 * *from은 input의 해상도를 말한다.*
   * Coner Pin : https://learn.foundry.com/nuke/content/reference_guide/transform_nodes/cornerpin2d.html
 * 트래킹한 4트랙을 잡고서 tracking to stabilize node를 만들면 거의 피사체가 움직이지 않는다. 이 노드를 복붙하고 합성하려는 소스의 match move node 사이에 연결해준다. 그리고 invert를 켜주면 다시 원본 영상처럼 바뀐다.
-* 3D mesh를 불러올땐 <u> Read Geo node </u> 사용.
+* 3D mesh를 불러올땐 <u>Read Geo node</u> 사용.
 * Read Geo: https://learn.foundry.com/nuke/11.1/content/reference_guide/3d_nodes/readgeo.html
 
 
