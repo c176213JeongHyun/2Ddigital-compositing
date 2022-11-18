@@ -22,14 +22,16 @@
   * **Bounding Box (B Box)**: https://learn.foundry.com/nuke/content/comp_environment/reformatting_elements/adjusting_bbox.html
 
 * **How to use Tracking Mark**
-* Coner Pin Node 두개 사용하기. 먼저 트래킹 마크에 맞추고, 그 밖의 영역까지 확장한다.
-1. Coner Pin 의 From head로 와서 set to input을 누르면 해상도가 늘어나며 원본과 해상도 크기를 맞춰준다. copy from을 누르면 원본의 코너로 자동으로 포인트를 맞춰준다.
-2. 그 이후 from은 건드릴 필요 없고 확장해서 to를 삽입하려는 스크린에 맞춘다. 
-3. 애니메이션을 넣은 coner pin node는 그대로 두고 그 위의 해상도를 맞춘 Node의 to를 스크린 크기에 맞춰 변경한다.
-* *from은 input의 해상도를 말한다.*
-  * Coner Pin : https://learn.foundry.com/nuke/content/reference_guide/transform_nodes/cornerpin2d.html
-* 트래킹한 4트랙을 잡고서 tracking to stabilize node를 만들면 거의 피사체가 움직이지 않는다. 이 노드를 복붙하고 합성하려는 소스의 match move node 사이에 연결해준다. 그리고 invert를 켜주면 다시 원본 영상처럼 바뀐다.
-* 3D mesh를 불러올땐 <u>Read Geo node</u> 사용.
-* Read Geo: https://learn.foundry.com/nuke/11.1/content/reference_guide/3d_nodes/readgeo.html
+  * Coner Pin Node 두개 사용하기. 먼저 트래킹 마크에 맞추고, 그 밖의 영역까지 확장한다.
+  1. Coner Pin 의 From head로 와서 set to input을 누르면 해상도가 늘어나며 원본과 해상도 크기를 맞춰준다. copy from을 누르면 원본의 코너로 자동으로 포인트를 맞춰준다.
+  2. 그 이후 from은 건드릴 필요 없고 확장해서 to를 삽입하려는 스크린에 맞춘다. 
+  3. 애니메이션을 넣은 coner pin node는 그대로 두고 그 위의 해상도를 맞춘 Node의 to를 스크린 크기에 맞춰 변경한다.
+    * *from은 input의 해상도를 말한다.*
+    * Coner Pin : https://learn.foundry.com/nuke/content/reference_guide/transform_nodes/cornerpin2d.html
+  * 트래킹한 4트랙을 잡고서 tracking to stabilize node를 만들면 거의 피사체가 움직이지 않는다. 이 노드를 복붙하고 합성하려는 소스의 match move node 사이에 연결해준다. 그리고 invert를 켜주면 다시 원본 영상처럼 바뀐다.
+
+* **3D mesh and scence**
+  * 3D mesh를 불러올땐 Read Geo node 사용.
+  * Read Geo: https://learn.foundry.com/nuke/11.1/content/reference_guide/3d_nodes/readgeo.html
 
 
