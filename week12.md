@@ -22,7 +22,7 @@
 * 값이 회전하면 조명이 바뀌는 것 같은 효과를 줄 수 있다. 영역에 해당하는 부분에 빛 비치게 할수있다. Nomal pass node. 쓰는 이유
 * **zedefocus**: focal point로 카메라 초점 조절 가능하다. 
   * https://learn.foundry.com/ko/nuke/content/reference_guide/filter_nodes/zdefocus.html
-* **position to pint** : 2d이미지를 뒤가 트인 3d 오브젝트로 구현가능
+* **position to point** : 2d이미지를 뒤가 트인 3d 오브젝트로 구현가능
   * https://learn.foundry.com/nuke/content/reference_guide/3d_nodes/positiontopoints.html
 * 3d공간에서 유용하게 쓰일 수 있다. 3d데이터가 오면 카메라가 거리를 인식못할 수 있으나 마야에서 카메라 정보를 가져올 수 있다.
 * export selection - fbx로 뽑을 수 있으나 좋지는 않다.. 다른 포맷으로 하기
